@@ -1,3 +1,3 @@
 print ("Hello World")
-a=10
+a=20
 print(a)
