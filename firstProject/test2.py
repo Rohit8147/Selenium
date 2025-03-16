@@ -21,7 +21,7 @@ driver.find_element(By.XPATH,"//a[text()='View Accounts']").click()
 time.sleep(5)
 driver.find_element(By.XPATH,"//div[@title='New']").click()
 time.sleep(5)
-driver.find_element(By.XPATH,"//input[@name='Name']").send_keys("RK Singh")
+driver.find_element(By.XPATH,"//input[@name='Name']").send_keys("Rohit Kumar Singh")
 driver.find_element(By.XPATH,"(//input[@name='Phone'])[1]").send_keys("8147388332")
 driver.find_element(By.XPATH,"//button[@id='combobox-button-268']").click()
 type=driver.find_elements(By.XPATH,"//div[@id='dropdown-element-268']")
@@ -35,7 +35,7 @@ driver.find_element(By.XPATH,"(//button[text()='Save'])[2]").click()
 time.sleep(5)
 
 
-verify=driver.find_element(By.XPATH,"(//lightning-formatted-text[text()='RK Singh'])[1]").is_displayed()
+verify=driver.find_element(By.XPATH,"(//lightning-formatted-text[text()='Rohit Kumar Singh'])[1]").is_displayed()
 print(verify)
 
 
