@@ -5,15 +5,13 @@ Feature: OrangeHRM Registration page
     Then I verify if the user is successfully login or not
 
 
-Scenario Outline: verify the login functionality by giving multiple inputes
+  Scenario Outline: verify the login functionality by giving multiple inputes
     Given I launch OrangeHRM website
     When I enter <username> and <password> as a user and click login
     Then I verify if the user is successfully login or not
     Examples:
-  |username|password|
-  |Admin   |admin123|
-  |admin   |1234    |
-  |rohit   |wyef36  |
+    |username|password|
+    |admin   |1234    |
 
 
   Scenario: Add employee

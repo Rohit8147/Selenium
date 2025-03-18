@@ -46,5 +46,5 @@ def adddetails(context,firstname,middlename,lastname):
     context.driver.find_element(By.XPATH, "//input[@name='middleName']").send_keys(middlename)
     context.driver.find_element(By.XPATH, "//input[@name='lastName']").send_keys(lastname)
     context.driver.find_element(By.XPATH, "//button[text()=' Save ']").click()
-    time.sleep(4)
+    time.sleep(10)
 
